@@ -1,0 +1,22 @@
+body {
+  background-color: #f7f2e9;
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 12rem auto; }
+  body header {
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid black; }
+    body header h1 {
+      align-self: center; }
+  body main {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20rem auto; }
+    body main .timePicker {
+      grid-column: 2; }
+    body main .allSteps {
+      grid-column: 1;
+      grid-row: 2; }
