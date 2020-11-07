@@ -21,11 +21,27 @@ body {
 
         .timePicker {
             grid-column: 2;
-            
+            max-width: 10rem;
+            display: flex;
+            flex-direction: column;/* 
+            .startButton {
+
+            } */
         }
         .allSteps {
             grid-column: 1;
-            grid-row: 2;
+            grid-row: 1;
+
+            div {
+                background-color: rgb(255, 255, 255);
+                padding: 1em;
+                margin-bottom: 1em;
+                border-radius: 20px;
+
+                .stepTime {
+                    float: right;
+                }
+            }
         }
     }
 
